@@ -4,6 +4,7 @@ import {UseEffectTest} from "./components/UseEffectTest";
 import {useData} from "./hooks/useData";
 import {UseContextTest} from "./components/UseContextTest";
 import {UseCallbackTest} from "./components/UseCallbackTest";
+import {UseRefTest} from "./components/UseRefTest";
 
 function Test() {
     const d = useData()
@@ -13,7 +14,7 @@ function Test() {
 
 function App(props) {
     return (
-        <UseCallbackTest></UseCallbackTest>
+        <UseRefTest></UseRefTest>
     );
 }
 
